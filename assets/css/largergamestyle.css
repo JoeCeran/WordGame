@@ -1,0 +1,81 @@
+h1 {
+    color: white;
+    text-align: center;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    background-color: rgb(22, 30, 56);
+    height: 100px;
+    line-height: 100px;
+    font-style: italic;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    background-color: rgb(22, 30, 56);
+    height: 50px;
+    line-height: 45px;
+    max-width: 20%;
+}
+
+p {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.dash {
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(183, 184, 233);
+}
+
+button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    border-radius: 20px;
+}
+
+img {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    margin: 70px;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    background-color: rgb(236, 227, 227);}
+
+.box{
+    float: left;
+    position: relative;
+    border: solid;
+    border-color: white;
+    left: 200px;
+    top: -20px;
+    margin: 5px;
+    width: 35%;
+    height: 500px;
+    min-height: 100px;
+    border-radius: 20px;
+    background-color: rgb(22, 30, 56);
+}
+
+

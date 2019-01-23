@@ -1,0 +1,55 @@
+.h1{
+    color: white;
+    font-family: fantasy;
+    position: relative;
+    top: 250px;
+}
+
+div{
+    color: white;
+}
+
+body{
+    background-image: url("../images/Background.PNG");
+    background-color: black;
+    background-size: 1700px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+.normal-button {
+    top: 10px;
+    position: absolute;
+    border-radius: 20px;
+    height: 160px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.fight-button{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 470px;
+}
+
+img {
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.battletexting {
+    position: relative;
+    left: 950px;
+    top: 470px;
+    margin-right: 0px;
+
+}
+
+#goBack {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    border-radius: 20px;
+}

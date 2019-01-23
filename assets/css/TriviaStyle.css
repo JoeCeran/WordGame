@@ -1,0 +1,60 @@
+h1 {
+    position: relative;
+    text-align: center;
+    padding-bottom: 100px;
+    top: 50px;
+    
+}
+
+body {
+    background-image: url("../images/weeaboo.png");
+    background-size: 100%;
+    background-position-y: -50px;
+    opacity: 0.9;
+}
+
+.container {
+    margin-top: 5px;
+    text-align: center;
+    background-color: rgb(196, 238, 252);
+    border: double;
+    border-color: rgba(80, 90, 80, 0.164);
+    border-radius: 500px;
+}
+
+.normal-button {
+    color: black;
+    background-color: rgb(196, 238, 252);
+    margin: 10px;
+}
+
+.normal-button:hover {
+    color: rgba(206, 74, 74, 0.925);
+}
+
+#show-img {
+    border: solid;
+    border-color: rgba(80, 90, 80, 0.164);;
+    height: 250px;
+    width: 400px;
+    border-radius: 100px;
+    margin: 20px;
+    margin-bottom: 80px;   
+    opacity: 100%;
+}
+
+.flicker {
+    animation: flicker 1s linear infinite;
+  }
+  
+  @keyframes flicker {  
+    50% { opacity: 0; }
+  }
+
+  .flicker2 {
+    animation: flicker 2s linear infinite;
+  }
+  
+  @keyframes flicker {  
+    50% { opacity: 0; }
+  }
